@@ -1,2 +1,5 @@
 **/_*.js
+tars/**/*.js
 plugins-config.json
+gulpfile.js
+webpack.config.js

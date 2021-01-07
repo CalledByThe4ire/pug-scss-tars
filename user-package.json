@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "eslint": "eslint markup/components/**/*.js --fix",
+    "stylelint": "stylelint \"markup/components/**/*.scss\" --syntax scss",
+    "test": "npm run stylelint && npm run eslint"
+  },
   "dependencies": {
     "bemto.pug": "^2.1.0",
-    "bootstrap": "^4.4.1",
     "core-js": "^2.6.11",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
@@ -10,17 +14,17 @@
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-prettier": "*",
     "gulp-gh-pages": "^0.5.4",
+    "include-media": "^1.4.9",
+    "input-range-scss": "latest",
+    "lost": "latest",
+    "normalize.css": "latest",
+    "postcss-preset-env": "latest",
     "postcss-scss": "^2.1.1",
     "prettier": "^1.19.1",
     "stylefmt": "^6.0.3",
     "stylelint": "^13.5.0",
-    "stylelint-scss": "^3.17.2",
     "stylelint-config-recess-order": "^2.0.4",
-    "stylelint-config-standard-scss": "^1.1.0"
-  },
-  "scripts": {
-    "stylelint": "stylelint \"markup/components/**/*.scss\" --syntax scss",
-    "eslint": "eslint markup/components/**/*.js --fix",
-    "test": "npm run stylelint && npm run eslint"
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.17.2"
   }
 }

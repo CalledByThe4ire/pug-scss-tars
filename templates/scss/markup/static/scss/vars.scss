@@ -1,7 +1,13 @@
+/* stylelint-disable scss/at-rule-no-unknown */
 // Colors
-$disabled: #707c87;
+$primary-color: #000 !default;
 
-// Size
-$min-width: map-get($grid-breakpoints, sm);
-$max-width: 1290px;
+$body-bg: #fff !default;
+$body-color: $primary-color !default;
 
+// Typography
+$main-font: Roboto, "Helvetica", sans-serif !default;
+
+// http://lostgrid.org/
+@lost flexbox flex;
+@lost gutter 0;
